@@ -58,7 +58,29 @@ public class Main{
         }
     }
 
+    /**
+     * This algorithm has a time complexity of O(n) --> Big O of n
+     * How? let's track i --> Iteration 1: i = 0 --> Iteration 2: 2 --> Iteration 3: 4 --> Iteration 4: 4 + 2 --> Iteration k: 2k
+     * termination condition would be i>=n => 2k = n => k = n/2 => k = n
+     * @param n
+     */
     static void algorithm6(int n){
-
+        for(int i = 0; i<n; i+=2){
+            System.out.println(i);
+        }
     }
+
+    /**
+     * This algorithm has a time complexity of 0(root n) --> Big O of root n
+     * How? let's track i --> Iteration 1: i = 0 --> Iteration 2: i --> 1 ---> Iteration k: k
+     * Termination condition would be i*i >= n => k^2 = n => k = root n
+     * @param n
+     */
+    static void algorithm7(int n){
+        for (int i = 0; i*i < n; i++) {
+            System.out.println(i);
+        }
+    }
+
+
 }
