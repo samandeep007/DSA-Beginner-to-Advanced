@@ -113,6 +113,15 @@ public class Main{
 
     }
 
-    /
+    /**
+     * This algorithm has a time complexity of O(nlog2n) --> Big 0 of nlog2n
+     */
+    static void algorithm10(int n){
+        for (int i = 0; i < n; i++) { //This will run n + 1 times
+            for (int j = 1; j < n; j*=2) //This will run n(log n + 1) times
+                System.out.println(j); // This will run n(log n) times
+            }
+        }
+    }
 
 }
