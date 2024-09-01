@@ -82,5 +82,35 @@ public class Main{
         }
     }
 
+    /**
+     * This algorithm has a time complexity of O(n) --> Big 0 of n
+     * How? Let's track i --> Iteration 1: i = 0; j = 0; --> Iteration 2: i = 1; j = 1; --> Iteration k --> both are k
+     * Time function = t(n) = n + 1 + n + n + 1 + n => 3n + 2 => n
+     * @param n
+     */
+    static void algorithm8(int n){
+        for (int i = 0; i < n; i++) { //This will run n + 1 times
+            System.out.println(i); // This will run n times
+        }
+        for (int j = 0; j < n; j++) { // This will run n + 1 times
+            System.out.println(j); //This will run n times
+        }
+    }
+
+    /**
+     * This algorithm has a time complexity of O(log2(log2n)) --> Big 0 of log of (log n base 2 ) base 2
+     */
+    static void algorithm9(int n){
+        int p = 0;
+        for (int i = 1; i < n; i*=2) {
+            p++; // This will run log n  times
+        }
+
+        // p will be log n here
+        for (int j = 1; j < p; j*=2) {
+            System.out.println(j); //This will run log(log2n)
+        }
+
+    }
 
 }
