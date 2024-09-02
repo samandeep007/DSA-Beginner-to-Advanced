@@ -8,6 +8,12 @@ public class Main{
         Big Omega: It is the lower bound of the function. f(n) = omega(g(n)) for all positive values of n such that 0 <= c*g(n) <= f(n) where c and n are constants
         Big Theta: It is the middle bound of the function. f(n) = theta(g(n)) for all positive values of n such that c1*g(n) <= f(n) <= c2*g(n) where c1 and c2 are constants
 
+       Asymptotic notations have nothing to do with best, worst, and average case
+       Log Formulae
+       log(ab) = log(a) + log(b)
+       log(a/b) = log(a) - log(b)
+       log(a^m) = mlog(a)
+
          */
     }
 
