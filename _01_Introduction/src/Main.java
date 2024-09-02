@@ -1,7 +1,14 @@
 public class Main{
     public static void main(String[] args){
         System.out.println("Introduction to Data structures and algorithms");
-        
+        /*
+        The increasing order of time complexities is: 1 < log(n) < root(n) < n < nlog(n) < n^2 ....... < n^n < 2^n < 3^n < n!
+        Asymptotic Notations: Big Oh, Big omega, Big theta
+        Big Oh: It is the upper bound of the function. f(n) = O(g(n)) for all positive values of n such that 0 <= f(n) <= c*g(n) where c and n are constants
+        Big Omega: It is the lower bound of the function. f(n) = omega(g(n)) for all positive values of n such that 0 <= c*g(n) <= f(n) where c and n are constants
+        Big Theta: It is the middle bound of the function. f(n) = theta(g(n)) for all positive values of n such that c1*g(n) <= f(n) <= c2*g(n) where c1 and c2 are constants
+
+         */
     }
 
     /**
@@ -123,5 +130,6 @@ public class Main{
             }
         }
     }
+
 
 }
