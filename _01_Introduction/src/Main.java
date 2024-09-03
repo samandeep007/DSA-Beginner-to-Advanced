@@ -9,10 +9,11 @@ public class Main{
         Big Theta: It is the middle bound of the function. f(n) = theta(g(n)) for all positive values of n such that c1*g(n) <= f(n) <= c2*g(n) where c1 and c2 are constants
 
        Asymptotic notations have nothing to do with best, worst, and average case
-       Log Formulae
+       Log Formula
        log(ab) = log(a) + log(b)
        log(a/b) = log(a) - log(b)
        log(a^m) = mlog(a)
+
 
          */
     }
