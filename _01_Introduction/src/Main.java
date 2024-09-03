@@ -6,8 +6,8 @@ public class Main{
         Asymptotic Notations: Big Oh, Big omega, Big theta
         Big Oh: It is the upper bound of the function. f(n) = O(g(n)) for all positive values of n such that 0 <= f(n) <= c*g(n) where c and n are constants
         Big Omega: It is the lower bound of the function. f(n) = omega(g(n)) for all positive values of n such that 0 <= c*g(n) <= f(n) where c and n are constants
-        Big Theta: It is the middle bound of the function. f(n) = theta(g(n)) for all positive values of n such that c1*g(n) <= f(n) <= c2*g(n) where c1 and c2 are constants
-
+        Big Theta: It is the middle bound of the function. f(n) = theta(g(n)) for all positive values of n such that c1*g(n) <= f(n) <= c2*g(n) where c1 and c2 are constant
+        We usually consider big theta
        Asymptotic notations have nothing to do with best, worst, and average case
        Log Formula
        log(ab) = log(a) + log(b)
