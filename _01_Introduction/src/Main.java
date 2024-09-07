@@ -129,7 +129,7 @@ public class Main{
     }
 
     /**
-     * This algorithm has a time complexity of O(nlog2n) --> Big 0 of nlog2n
+     * This algorithm has a time complexity of O(nlog2n) --> Big 0 of n(log2n)
      */
     static void algorithm10(int n){
         for (int i = 0; i < n; i++) { //This will run n + 1 times
