@@ -13,7 +13,7 @@ public class Main{
        log(ab) = log(a) + log(b)
        log(a/b) = log(a) - log(b)
        log(a^m) = mlog(a)
-       DSA course by Abdul Bari on youtube
+
 
 
          */
