@@ -101,7 +101,7 @@ public class Main{
      * This algorithm has a time complexity of O(n) --> Big 0 of n
      * How? Let's track i --> Iteration 1: i = 0; j = 0; --> Iteration 2: i = 1; j = 1; --> Iteration k --> both are k
      * Time function = t(n) = n + 1 + n + n + 1 + n => 3n + 2 => n
-     * @param n
+     * @param
      */
     static void algorithm8(int n){
         for (int i = 0; i < n; i++) { //This will run n + 1 times
