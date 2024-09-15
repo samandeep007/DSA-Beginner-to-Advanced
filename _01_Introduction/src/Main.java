@@ -20,7 +20,7 @@ public class Main{
     }
 
     /**
-     * @param n
+     * @param
      * This algorithm has a time complexity of O(n) --> Big O of n
      * Why? Because the loop runs n+1 times and the statement inside it runs n times --> n + 1 + n => 2n + 1 => O(n)
      */
@@ -138,6 +138,7 @@ public class Main{
             }
         }
     }
+
 
 
 }
